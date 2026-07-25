@@ -1,0 +1,6 @@
+{
+  "name": "Nexus Notes for Mac",
+  "description": "A macOS-styled knowledge management application inspired by Obsidian and OneNote, featuring bi-directional links, interactive graph view, offline local storage, markdown & canvas modes, and vault export/import.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

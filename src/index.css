@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #007AFF;
+  --color-accent-hover: #0062CC;
+  --color-mac-header: #F2F2F2;
+  --color-mac-sidebar: #F8F8F8;
+  --color-mac-border: #E5E5E5;
+  --color-mac-border-subtle: #F0F0F0;
+  --color-mac-text: #1D1D1F;
+  --color-mac-subtext: #6B6B6B;
+  --color-mac-muted: #8E8E93;
+}
+
+/* Custom scrollbar for minimalist look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(142, 142, 147, 0.3);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(142, 142, 147, 0.5);
+}
+
+/* Minimalist Markdown Callout */
+.minimal-callout {
+  background-color: #FAFAFA;
+  border-left: 4px solid #007AFF;
+  padding: 1rem 1.25rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-style: italic;
+  color: #3A3A3C;
+}
+
+.dark .minimal-callout {
+  background-color: #2C2C2E;
+  border-left-color: #0A84FF;
+  color: #E5E5EA;
+}
